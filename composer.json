@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-0": {
-            "ArseneDerniere\\LightnCandyL4": "src/"
+            "ArseneDerniere\\LightncandyL4": "src/"
         }
     },
     "minimum-stability": "dev",

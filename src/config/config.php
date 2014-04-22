@@ -3,7 +3,7 @@
 return array(
 
 	// The class prefix for compiled templates.
-	'template_class_prefix' => '__LightnCandy_',
+	'template_class_prefix' => '__Lightncandy_',
 
 	// A cache directory for compiled templates. Mustache will not cache templates unless this is set.
     'cache' => storage_path() . '/cache/views/lightncandy',
@@ -14,7 +14,7 @@ return array(
 
     // A Mustache loader instance for partials. If none is specified, defaults to an ArrayLoader for the supplied
     // partials option, if present, and falls back to the specified template loader.
-    'partials_loader' => App::make('ArseneDerniere\LightnCandyL4\FilesystemLoader'),
+    'partials_loader' => App::make('ArseneDerniere\LightncandyL4\FilesystemLoader'),
     
     // An array of Mustache partials. Useful for quick-and-dirty string template loading, 
     // but not as efficient or lazy as a Filesystem (or database) loader.
@@ -35,7 +35,7 @@ return array(
     
     // A Mustache logger instance. No logging will occur unless this is set. Using a PSR-3 compatible logging 
     // library—such as Monolog—is highly recommended. A simple stream logger implementation is available as well.
-    // 'logger' => new LightnCandy_Logger_StreamLogger('php://stderr'),
+    // 'logger' => new Lightncandy_Logger_StreamLogger('php://stderr'),
     
     // Only treat Closure instances and invokable classes as callable. If true, values like 
     // array('ClassName', 'methodName') and array($classInstance, 'methodName'), which are 
