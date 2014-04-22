@@ -1,12 +1,28 @@
 <?php
 
+// !!!! Very dirty use of conarwelsh's config file
+// !!!! Only 'cache' is used untill now
+
 return array(
+
+    // Compiler options
+    'compile_options' => array(
+        'basedir' => array(
+            base_path().'/app/views'
+        ),
+        'fileext' => array(
+            '.tpl',
+            '.tmpl',
+            '.handlebars',
+            '.lightncandy'
+        )
+    ),
 
 	// The class prefix for compiled templates.
 	'template_class_prefix' => '__LightnCandy_',
 
 	// A cache directory for compiled templates. Mustache will not cache templates unless this is set.
-    'cache' => storage_path() . '/cache/views/lightncandy',
+    'cache' => storage_path() . '/views',
 
     // Override default permissions for cache files. Defaults to using the system-defined umask.
     // It is strongly recommended that you configure your umask properly rather than overriding permissions here.
