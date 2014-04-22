@@ -1,11 +1,11 @@
 <?php
-namespace ArseneDerniere\LightncandyL4;
+namespace ArseneDerniere\LightnCandyL4;
 
 use Illuminate\View\Engines\EngineInterface;
 use Illuminate\Filesystem\Filesystem;
-use Lightncandy_Engine;
+use LightnCandy;
 
-class LightncandyEngine implements EngineInterface {
+class LightnCandyEngine implements EngineInterface {
 
 	public function __construct(Filesystem $files)
 	{
@@ -16,7 +16,7 @@ class LightncandyEngine implements EngineInterface {
 	{
 		$view = $this->files->get($path);
 		$app = app();
-		$m = new Lightncandy_Engine( $app['config']->get('lightncandy-l4::config') );
+		$m = new LightnCandy( $app['config']->get('lightncandy-l4::config') );
  
  		$data = array_map(function($item){
 			return (is_object($item) && method_exists($item, 'toArray')) ? $item->toArray() : $item;

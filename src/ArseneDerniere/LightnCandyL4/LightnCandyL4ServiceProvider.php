@@ -1,8 +1,8 @@
-<?php namespace ArseneDerniere\LightncandyL4;
+<?php namespace ArseneDerniere\LightnCandyL4;
 
 use Illuminate\Support\ServiceProvider;
 
-class LightncandyL4ServiceProvider extends ServiceProvider {
+class LightnCandyL4ServiceProvider extends ServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
@@ -26,7 +26,7 @@ class LightncandyL4ServiceProvider extends ServiceProvider {
 		{
 			$resolver->register('lightncandy', function() use($app)
 			{
-				return $app->make('ArseneDerniere\LightncandyL4\LightncandyEngine');
+				return $app->make('ArseneDerniere\LightnCandyL4\LightnCandyEngine');
 			});
 			return $resolver;
 		});
