@@ -1,10 +1,10 @@
 <?php
-namespace ArseneDerniere\LightnCandyL4;
+namespace ArseneDerniere\LightncandyL4;
 
-use LightnCandy_Loader;
+use Lightncandy_Loader;
 use Illuminate\Filesystem\Filesystem;
 
-class FilesystemLoader implements LightnCandy_loader {
+class FilesystemLoader implements Lightncandy_loader {
 
 	private $templates = array();
 
