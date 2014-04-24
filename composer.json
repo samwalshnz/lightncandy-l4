@@ -13,10 +13,13 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.1.*",
+        "illuminate/support": "~4",
         "zordius/lightncandy": "dev-master"
     },
     "autoload": {
+        "classmap": [
+            
+        ],
         "psr-0": {
             "Arsenederniere\\LightncandyL4\\": "src/"
         }
