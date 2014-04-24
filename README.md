@@ -32,5 +32,5 @@ app/config/app.php
 You can alter the configuration options that are passed to lightncandy.php by publishing the config file.
     
     php artisan config:publish arsenederniere/lightncandy-l4
-    
+
 The `flags` option is passed to lightncandy's compile method, you may use any `FLAG_###` constant used by [lightncandy](https://github.com/zordius/lightncandy).
