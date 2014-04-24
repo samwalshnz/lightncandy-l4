@@ -24,6 +24,11 @@
             "Arsenederniere\\LightncandyL4\\": "src/"
         }
     },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan config:publish arsenederniere/lightncandy-l4"
+        ]
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
