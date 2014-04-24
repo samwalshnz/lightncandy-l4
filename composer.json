@@ -13,12 +13,12 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "~4",
+        "illuminate/support": "4.1.*",
         "zordius/lightncandy": "dev-master"
     },
     "autoload": {
         "psr-0": {
-            "ArseneDerniere\\LightnCandyL4": "src/"
+            "Arsenederniere\\LightncandyL4\\": "src/"
         }
     },
     "minimum-stability": "dev",

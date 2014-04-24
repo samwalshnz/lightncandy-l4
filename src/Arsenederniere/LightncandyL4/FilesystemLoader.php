@@ -1,5 +1,4 @@
-<?php
-namespace ArseneDerniere\LightnCandyL4;
+<?php namespace Arsenederniere\LightncandyL4;
 
 use Illuminate\Filesystem\Filesystem;
 
