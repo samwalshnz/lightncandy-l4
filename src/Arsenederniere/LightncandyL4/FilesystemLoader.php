@@ -18,7 +18,7 @@ class FilesystemLoader {
 		if (!isset($this->templates[$name])) {
 			$this->templates[$name] = $this->loadFile($name);
 		}
-        return $this->templates[$name];
+		return $this->templates[$name];
 	}
 
 	public function loadFile($name)

@@ -1,12 +1,12 @@
 <?php
-namespace namespace Arsenederniere\LightncandyL4;
+namespace ArseneDerniere\LightnCandyL4;
 
 use Illuminate\View\Engines\EngineInterface;
 use Illuminate\Filesystem\Filesystem;
 use LightnCandy;
 use File;
 
-class LightncandyEngine implements EngineInterface {
+class LightnCandyEngine implements EngineInterface {
 
     public function __construct(Filesystem $files)
     {

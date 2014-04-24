@@ -12,22 +12,14 @@ class LightncandyL4ServiceProvider extends ServiceProvider {
     protected $defer = false;
 
     /**
-     * Bootstrap the application events.
-     *
-     * @return void
-     */
-    public function boot()
-    {
-        $this->package('arsenederniere/lightncandy-l4');
-    }
-
-    /**
      * Register the service provider.
      *
      * @return void
      */
     public function register()
     {
+        $this->package('arsenederniere/lightncandy-l4');
+
         $app = $this->app;
 
         $app->extend('view.engine.resolver', function($resolver, $app)
@@ -47,7 +39,6 @@ class LightncandyL4ServiceProvider extends ServiceProvider {
                 $fileext = trim($fileext, '.');
                 $env->addExtension($fileext, 'lightncandy');
             }
-            
             return $env;
         });
     }
