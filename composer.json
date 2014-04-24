@@ -1,13 +1,14 @@
 {
-    "name": "arseneDerniere/lightncandy-l4",
+    "name": "arsenederniere/lightncandy-l4",
     "type": "library",
     "description": "A lightncandy (\"A PHP library to support almost all features of handlebars\" by zordius) wrapper for Laravel 4.",
     "keywords": ["laravel", "laravel 4", "lightncandy", "handlebars", "php"],
-    "homepage": "https://github.com/arseneDerniere/lightncandy-l4",
+    "homepage": "https://github.com/arsenederniere/lightncandy-l4",
     "license": "MIT",
     "authors": [
         {
-            "name": "Arsène Dernière"
+            "name": "Arsène Dernière",
+            "email": "dieuonline@hotmail.com"
         }
     ],
     "require": {
